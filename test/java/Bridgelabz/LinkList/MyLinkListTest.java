@@ -137,7 +137,7 @@ public void givenSearchnumber40InLinkedListShouldBeDeleted() {
 @Test
 public void givenShouldReturn() {
 	System.out.println("\nOrdered Linked List");
-	OrderedLinkList<Integer> linkedList = new OrderedLinkList<>();
+	OrderedLinkedList<Integer> linkedList = new OrderedLinkedList<>();
 	linkedList.add(56);
 	linkedList.add(30);
 	linkedList.add(70);
